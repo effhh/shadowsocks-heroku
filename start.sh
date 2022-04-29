@@ -1,6 +1,6 @@
 #!/bin/sh
 
-exec ssserver \
+exec ssservice server \
   --server-addr 0.0.0.0:$PORT \
   --password $SS_PASSWORD \
   --encrypt-method $SS_ENCRYPT \
