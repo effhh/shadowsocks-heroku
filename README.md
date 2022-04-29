@@ -49,7 +49,7 @@ obfs=http;obfs-host=appname.herokuapp.com;fast-open
 # server
 server;fast-open;path=/ws
 # client
-tls;fast-open;host=appname.herokuapp.com;mux=5;loglevel=none
+tls;fast-open;host=appname.herokuapp.com;path=/ws?ed=2048;mux=5;loglevel=none
 
 #
 # cloudflare workers code snippet
